@@ -1,0 +1,221 @@
+@Importante feito por Ane Deboleto
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  height:100vh;
+  font-family: 'FreeMono', monospace;
+  background-image: url('https://criticalhits.com.br/wp-content/uploads/2020/10/apps.22475.68417643288595839.fb540a6c-b47d-41aa-b827-6c0a02fb35c6.jpg');
+  background-color: #8B0000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: black;
+
+}
+
+.container {
+  text-align: center;
+
+}
+
+.page-logo{
+  margin-top: 15px;
+  height: 30px;
+}
+
+.page-title {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  opacity: 0.8;
+  text-shadow: #1C1C1C;
+  font-size: 70px;
+  color: #FF0000;
+  margin: 10px;
+}
+
+button {
+  background-color: #CDAD00;
+  color: rgb(56, 53, 53);
+  font-weight: bold;
+  padding: .8rem 1.5rem;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none!important;
+}
+
+button:disabled, button:disabled:hover{
+  background-color: #CDAD00;
+  color: rgb(7, 7, 7);
+  cursor: default;
+}
+
+button:hover{
+  background-color: #CDAD00;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: red;
+}
+
+#cartaEscolhida{
+  margin: 15px;
+  display: none;
+}
+
+#carta-jogador {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta{
+  background-color: black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  font-size: 1.3em;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.89);
+  box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.89);
+}
+
+.nomeCarta{
+  width: 200px;
+  padding: 10px 0;
+  background-color: rgb(238, 233, 233);
+  color: #000;
+  border-radius: 10px;
+}
+
+.carta img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.atributosCarta{
+  display: flex;
+  flex-direction: column;
+  color:#fff;
+  width: 200px;
+  border-radius: 0 0 10px 10px;
+}
+
+.carta .bg1, .carta .bg2{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.carta .bg1{
+  background-color:#CDAD00;
+  opacity: 0.5px;
+}
+
+.atributosCarta div:nth-child(3){
+  border-radius: 0 0 10px 10px;
+}
+
+.carta .bg2{
+  background-color: #CDAD00;
+  opacity: 0.5px;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 1.5rem;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.opcoes {
+  color: white;
+}
+
+#campoBatalha{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.cartaJogador{
+  width: 200px;
+}
+
+.cartaMaquina{
+  width: 200px;
+}
+
+.img-carta{
+  height: 250px;
+}
+
+.img-x{
+  width: 100px;
+  margin: 0 50px;
+}
+
+.versus{
+  align-self: center;
+}
+
+.pontuacao, #resultado{
+  font-size: 1.5em;
+}
+
+#resultado{
+  margin: 5px;
+}
+
+button{
+  cursor: pointer;
+}
+
+#escolhaAtributo{
+  display: none;
+}
+
+#escolhaAtributo input{
+  margin: 15px 0;
+}
+
+#opcoes div{
+  display: inline;
+  margin: 0 15px;
+}
+
+#opcoes input{
+  margin: 5px;
+}
+
+#reiniciarJogo{
+  display: none;
+}

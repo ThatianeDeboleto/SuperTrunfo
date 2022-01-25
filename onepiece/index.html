@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/2b/1d/20/2b1d203c87858d6aa122c2485a1fd0ab.png" class="page-logo"
+            alt="">
+
+        <h1 class="page-title">Super Trunfo - One Piece</h1>
+
+        <div class="pontuacao"></div>
+        <div class="cartasRestantes"></div>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear Cartas</button>
+
+        <div id="cartaEscolhida"></div>
+
+        <form id="form">
+            <div id="escolhaAtributo">
+                <h2>Escolha o seu atributo</h2>
+                <div class="opcoes" id="opcoes"></div>
+            </div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+            <button type="button" id="btnNovoJogo" onclick="novoJogo()" disabled="true">Nova Rodada</button>
+        </form>
+        <button onclick="reiniciarJogo()" id="reiniciarJogo">Jogar Novamente</button>
+
+        <div id="resultado"></div>
+
+        <div id="campoBatalha">
+            <div class="cartaJogador"></div>
+            <div class="versus"></div>
+            <div class="cartaMaquina"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
